@@ -5,12 +5,13 @@ tagline: Union Oil Company Design Fellowship Professor
 ---
 {% include JB/setup %}
 
-Union Oil Company Design Fellowship Professor and Director, [Engineering Clinic]
-(https://www.hmc.edu/engineering/clinic/) in the Department of Engineering at
-[Harvey Mudd College][HMC] 
+Union Oil Company Design Fellowship Professor and Director,
+[Engineering Clinic](https://www.hmc.edu/engineering/clinic/)
+in the Department of Engineering at [Harvey Mudd College][HMC] 
 
-My research interests include Graphics, Architecture, Embedded
-Systems, and Real-Time Systems. 
+My research interests include Heterogeneous Kinetics, Radiative Heat Transfer,
+Containerless Processing, Process Control, and Automation of Laboratory
+equipment. 
 
 {{ Ph.D. from the [School of Computing][SoC] at the [University of }}
 {{ Utah][UofU] and B.S. in Computer Engineering from the }}

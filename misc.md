@@ -8,28 +8,19 @@ group: navigation
 
 ## Vanity Links
 
-* [My Google Scholar Page](http://scholar.google.com/citations?user=WzhSQzkAAAAJ)
-* [My Erdos number of 4](http://academic.research.microsoft.com/VisualExplorer#3829195&1112639)
+* [My Google Scholar Page](https://scholar.google.com/citations?hl=en&user=F_zYX30AAAAJ)
 
 ## Other links
 
-* [Indie Game Share](http://itch.io/)
 * [Web-based equation tool](http://www.sciweavers.org/free-online-latex-equation-editor)
 * [Web-based FSM tool](http://madebyevan.com/fsm/)
 * [Web-based diff tool](diff.html)
-* [Android OpenGL Test App](http://www3.hmc.edu/~jspjut/OpenGLTest-debug.apk) - broken link...
 * [Procedural Jigsaw Puzzles](http://n-e-r-v-o-u-s.com/projects/puzzles/)
 * [site pages](pages.html)
 * VLC stuff
   * [VLC command lines](https://www.videolan.org/doc/streaming-howto/en/ch04.html)
   * [VLC GUI stuff](http://www.videolan.org/doc/streaming-howto/en/ch02.html)
   * [webcam testing](https://help.ubuntu.com/community/Webcam)
-
-## My NCAA College Football Rankings
-
-I decided I didn't like the rankings made by the tournament committee
-or the voters in the polls so I made [my own rankings](ncaaf.html)
-driven by a simple python script. 
 
 ## Recent [Blog](/blog/) Posts
 
