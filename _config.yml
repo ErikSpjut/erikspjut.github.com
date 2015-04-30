@@ -13,15 +13,13 @@ markdown: redcarpet
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Josef Spjut
+title : Erik Spjut
 tagline: Computing Researcher
 author :
-  name : Josef Spjut
-  email : jspjut@g.hmc.edu
-  github : jspjut
-  twitter : josefspjut
-  googleplus : 110809090274018877766
-  linkedin : josefspjut
+  name : Erik Spjut
+  email : spjut@g.hmc.edu
+  github : ErikSpjut
+  linkedin : erikspjut
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -33,7 +31,7 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 #production_url : http://jspjut.github.io
-production_url : http://josef.spjut.me
+production_url : http://erik.spjut.me
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -88,9 +86,9 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : false
     disqus :
-      short_name : josefspjut
+      short_name : 
     livefyre :
       site_id : 123
     intensedebate :
@@ -106,9 +104,9 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google 
+    provider : false #google 
     google : 
-        tracking_id : 'UA-43681956-1'
+        tracking_id : 
     getclicky :
       site_id : 
     mixpanel :
