@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Josef Spjut
-tagline: Researcher and Professor of Computing
+title: Erik Spjut
+tagline: Union Oil Company Design Fellowship Professor
 ---
 {% include JB/setup %}
 
-Visiting Professor in the department of Engineering at [Harvey
-Mudd College][HMC] and consulting researcher for [NVIDIA][].
+Union Oil Company Design Fellowship Professor and Director, [Engineering Clinic]
+(https://www.hmc.edu/engineering/clinic/) in the Department of Engineering at
+[Harvey Mudd College][HMC] 
 
 My research interests include Graphics, Architecture, Embedded
 Systems, and Real-Time Systems. 
