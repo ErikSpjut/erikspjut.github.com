@@ -5,40 +5,79 @@ tagline: Union Oil Company Design Fellowship Professor
 ---
 {% include JB/setup %}
 
-Union Oil Company Design Fellowship Professor and Director,
-[Engineering Clinic](https://www.hmc.edu/engineering/clinic/)
-in the Department of Engineering at [Harvey Mudd College][HMC] 
+Union Oil Company Design Fellowship Professor 
+in the [Department of Engineering][EHMC] at [Harvey Mudd College][HMC]  
 
-My research interests include Heterogeneous Kinetics, Radiative Heat Transfer,
-Containerless Processing, Process Control, and Automation of Laboratory
-equipment. 
+Ph.D. from the [Department of Chemical Engineering][ChE] at the [Massachusetts Institute
+of Technology][MIT] and B.S. in [Chemical Engineering][UChE] from the
+[University of Utah][UofU].
 
-{{ Ph.D. from the [School of Computing][SoC] at the [University of }}
-{{ Utah][UofU] and B.S. in Computer Engineering from the }}
-{{ [University of California, Riverside][UCR]. }}
-
+   [EHMC]: https://www.hmc.edu/engineering/
    [HMC]: http://hmc.edu
-   [NVIDIA]: http://research.nvidia.com
-   [SoC]: http://www.cs.utah.edu
+   [ChE]: http://web.mit.edu/cheme/
+   [MIT]: http://www.mit.edu
+   [UChE]: https://www.che.utah.edu
    [UofU]: http://www.utah.edu
-   [UCR]: http://ucr.edu
 
 My CV is available in [pdf](files/cv.pdf) and [html](cv.html).
 [linkedin](https://www.linkedin.com/in/josefspjut).
+
+{{ Fixing my CV is high priority }}
+
 
 ## Teaching
 
 Current: 
 
-* [e85: Digital Design and Computer Architecture](http://pages.hmc.edu/jspjut/class/s2015/e85)
-* [e190u: Video Game Console Design](http://pages.hmc.edu/jspjut/class/s2015/e190u)
+* [E59: Introduction to Engineering Systems](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/#59)
+* [E133: Chemical Reaction Engineering](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/#133)
+
+{{ fill in the correct links when available }}
 
 [Other classes](teaching.html) I've taught.
 
 For students: [How to Request a Letter of Recommendation]({{ BASE_PATH }}/recs.html)
 
+## Consulting
+
+I have consulted for a wide variety of companies and organizations in the following areas:
+
+* Development and Automation of Experiments and Experimental Equipment
+  * Design and construction of three-color pyrometer
+  * Design and construction of electrodynamic and electrostatic levitators
+    
+
+* Modeling and Design for Radiant Heat Transfer
+  * Modeling of Si wafer processing furnace
+  * Modeling of thin film on glass processing furnace
+    
+    
+* Analysis and Design of Experiments
+  * Use Design of Experiments to determine parameter space for novel triboelectric separation process
+    
+    
+* Single and Multiphase Fluid Flow
+  * Develop spreadsheet for use by company engineers to estimate pressure drops in
+    aircraft fire extinguisher circuits
+  * Determine cause of flow instability in two-phase system and develop a simple
+    method to stabilize the Flow
+    
+* LabVIEW Development
+
+## Special Projects
+
+While not directly sponsored research or course development, I've done a number of special
+projects in connection with curriculum development, consulting, research, or my own enjoyment
+
+* Development of digital filters for CSound
+* Video production
+* Audio production and podcasting
+
 ## Research
 
+My research interests include Heterogeneous Kinetics, Radiative Heat Transfer,
+Containerless Processing, Process Control, and Automation of Laboratory
+equipment.
 I advise the [Charlab](http://charlab.github.io/) research group.
 
 Selected Recent Publications:
