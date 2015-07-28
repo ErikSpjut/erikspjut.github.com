@@ -1,0 +1,948 @@
+(***********************************************************************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used on any computer system with Mathematica 3.0,
+MathReader 3.0, or any compatible application. The data for the notebook 
+starts with the line of stars above.
+
+To get the notebook into a Mathematica-compatible application, do one of 
+the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing the 
+word CacheID, otherwise Mathematica-compatible applications may try to 
+use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+***********************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     16413,        657]*)
+(*NotebookOutlinePosition[     17062,        680]*)
+(*  CellTagsIndexPosition[     17018,        676]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+    \(\( (*\ 
+      \(A\ Mathematica\ solution\ to\ Problem\ 4  _  39\ in\ Felder\ &\)\ 
+        Rousseau\ *) \n (*\ 
+      Part\ 1\  - \ 
+        The\ mixer/filters\ and\ holding\ tank . \ This\ section\ uses\ only\ 
+          equations, \ not\ assignment\ statements, \ 
+      and\ solves\ them\ all\ at\ \(once . \)\ *) \n (*\ 
+      Mass\ Balance\ around\ Mixer\ 1\ *) \n
+    eq[1] = m3L == 0.01 \((m1L + m2L)\)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m3L", "==", 
+      RowBox[{
+        StyleBox["0.01`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->1], " ", \((m1L + m2L)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[2] = m4L == \((1 - 0.01)\) \((m1L + m2L)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m4L == 0.990000000000000035`\ \((m1L + m2L)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[3] = m4S == 0.15 \((m1S + m2S)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m4S", "==", 
+      RowBox[{
+        StyleBox["0.15`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->2], " ", \((m1S + m2S)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[4] = m3S == \((1 - 0.15)\) \((m1S + m2S)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m3S == 0.85`\ \((m1S + m2S)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Mass\ Balance\ around\ Mixer\ 2\ *) \n
+    eq[5] = m5L == 0.01 \((m4L + m8L)\)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m5L", "==", 
+      RowBox[{
+        StyleBox["0.01`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->1], " ", \((m4L + m8L)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[6] = m6L == \((1 - 0.01)\) \((m4L + m8L)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m6L == 0.990000000000000035`\ \((m4L + m8L)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[7] = m6S == 0.15 \((m4S + m8S)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m6S", "==", 
+      RowBox[{
+        StyleBox["0.15`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->2], " ", \((m4S + m8S)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[8] = m5S == \((1 - 0.15)\) \((m4S + m8S)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m5S == 0.85`\ \((m4S + m8S)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Mass\ Balance\ around\ Mixer\ 3\ *) \n
+    eq[9] = m8L == 0.01 \((m6L + m7L)\)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m8L", "==", 
+      RowBox[{
+        StyleBox["0.01`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->1], " ", \((m6L + m7L)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[10] = m9L == \((1 - 0.01)\) \((m6L + m7L)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m9L == 0.990000000000000035`\ \((m6L + m7L)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[11] = m9S == 0.15 \((m6S + m7S)\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"m9S", "==", 
+      RowBox[{
+        StyleBox["0.15`",
+          StyleBoxAutoDelete->True,
+          PrintPrecision->2], " ", \((m6S + m7S)\)}]}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[12] = m8S == \((1 -  .15)\) \((m6S + m7S)\)\)], "Input"],
+
+Cell[BoxData[
+    \(m8S == 0.85`\ \((m6S + m7S)\)\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Mass\ Balance\ around\ Holding\ Tank\ *) \n
+    eq[13] = m10L == 0\)\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell1" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m10L\)\" is similar to \
+existing symbol \"\!\(m1L\)\"."\)], "Message"],
+
+Cell[BoxData[
+    \(m10L == 0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[14] = m11L == m3L + m5L\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell1" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m11L\)\" is similar to \
+existing symbol \"\!\(m1L\)\"."\)], "Message"],
+
+Cell[BoxData[
+    \(m11L == m3L + m5L\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[15] = m11S == 0\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m11S\)\" is similar to \
+existing symbols \!\({m11L, m1S}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(m11S == 0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[16] = m10S == m3S + m5S\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m10S\)\" is similar to \
+existing symbols \!\({m10L, m1S}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(m10S == m3S + m5S\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Feed\ Streams\ *) \neq[17] = m1S == 3300\)\)], "Input"],
+
+Cell[BoxData[
+    \(m1S == 3300\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[18] = m1L == 0\)], "Input"],
+
+Cell[BoxData[
+    \(m1L == 0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[19] = m2S == 0\)], "Input"],
+
+Cell[BoxData[
+    \(m2S == 0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[20] = m2L == 620\)], "Input"],
+
+Cell[BoxData[
+    \(m2L == 620\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[21] = m7S == 2720\)], "Input"],
+
+Cell[BoxData[
+    \(m7S == 2720\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq[22] = m7L == 0\)], "Input"],
+
+Cell[BoxData[
+    \(m7L == 0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Set\ Up\ Equations\ to\ solve\ *) \n
+    EqSet = Table[eq[n], {n, 1, 22}]\)\)], "Input"],
+
+Cell[BoxData[
+    RowBox[{"{", 
+      RowBox[{
+        RowBox[{"m3L", "==", 
+          RowBox[{
+            StyleBox["0.01`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->1], " ", \((m1L + m2L)\)}]}], ",", 
+        \(m4L == 0.990000000000000035`\ \((m1L + m2L)\)\), ",", 
+        RowBox[{"m4S", "==", 
+          RowBox[{
+            StyleBox["0.15`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->2], " ", \((m1S + m2S)\)}]}], ",", 
+        \(m3S == 0.85`\ \((m1S + m2S)\)\), ",", 
+        RowBox[{"m5L", "==", 
+          RowBox[{
+            StyleBox["0.01`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->1], " ", \((m4L + m8L)\)}]}], ",", 
+        \(m6L == 0.990000000000000035`\ \((m4L + m8L)\)\), ",", 
+        RowBox[{"m6S", "==", 
+          RowBox[{
+            StyleBox["0.15`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->2], " ", \((m4S + m8S)\)}]}], ",", 
+        \(m5S == 0.85`\ \((m4S + m8S)\)\), ",", 
+        RowBox[{"m8L", "==", 
+          RowBox[{
+            StyleBox["0.01`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->1], " ", \((m6L + m7L)\)}]}], ",", 
+        \(m9L == 0.990000000000000035`\ \((m6L + m7L)\)\), ",", 
+        RowBox[{"m9S", "==", 
+          RowBox[{
+            StyleBox["0.15`",
+              StyleBoxAutoDelete->True,
+              PrintPrecision->2], " ", \((m6S + m7S)\)}]}], ",", 
+        \(m8S == 0.85`\ \((m6S + m7S)\)\), ",", \(m10L == 0\), ",", 
+        \(m11L == m3L + m5L\), ",", \(m11S == 0\), ",", 
+        \(m10S == m3S + m5S\), ",", \(m1S == 3300\), ",", \(m1L == 0\), ",", 
+        \(m2S == 0\), ",", \(m2L == 620\), ",", \(m7S == 2720\), ",", 
+        \(m7L == 0\)}], "}"}]], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Set\ Up\ Variables\ to\ solve\ for\ *) \n
+    SolSet = {m1L, m1S, m2L, m2S, m3L, m3S, m4L, m4S, m5L, m5S, m6L, m6S, 
+        m7L, m7S, m8L, m8S, m9L, m9S, m10L, m10S, m11L, m11S}\)\)], "Input"],
+
+Cell[BoxData[
+    \({m1L, m1S, m2L, m2S, m3L, m3S, m4L, m4S, m5L, m5S, m6L, m6S, m7L, m7S, 
+      m8L, m8S, m9L, m9S, m10L, m10S, m11L, m11S}\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Solution\ *) \nSolnPart1 = Solve[EqSet, SolSet]\)\)], "Input"],
+
+Cell[BoxData[
+    \({{m1L \[Rule] 0.`, m1S \[Rule] 3300.00000000000026`, 
+        m2L \[Rule] 620.000000000000017`, m2S \[Rule] 0.`, 
+        m3L \[Rule] 6.20000000000000106`, m3S \[Rule] 2805.00000000000007`, 
+        m4L \[Rule] 613.79999999999999`, m4S \[Rule] 495.000000000000017`, 
+        m5L \[Rule] 6.19937380062619958`, m5S \[Rule] 2734.61318051575963`, 
+        m6L \[Rule] 613.738006261993707`, m6S \[Rule] 482.578796561604672`, 
+        m7L \[Rule] 0.`, m7S \[Rule] 2720.00000000000063`, 
+        m8L \[Rule] 6.13738006261993707`, m8S \[Rule] 2722.19197707736393`, 
+        m9L \[Rule] 607.600626199373738`, m9S \[Rule] 480.386819484240756`, 
+        m10L \[Rule] 0.`, m10S \[Rule] 5539.61318051576068`, 
+        m11L \[Rule] 12.399373800626201`, m11S \[Rule] 0.`}}\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ 
+      Part\ 2\  - \ 
+        The\ Extractor/Stripper . \ This\ section\ uses\ only\ assignment\ 
+          statements . \ Unlike\ equations, \ 
+      you\ have\ to\ use\ assignment\ statements\ in\ the\ proper\ order\ to\ 
+        avoid\ recursion\ *) \nm10D = 1/1000\ m2L /. SolnPart1[\([1]\)]\)\)], 
+  "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m10D\)\" is similar to \
+existing symbols \!\({m10L, m10S}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(0.620000000000000017`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m10 = \((m10S + m10L)\) /. SolnPart1[\([1]\)]\)], "Input"],
+
+Cell[BoxData[
+    \(5539.61318051576068`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m10E = 0.165  m10\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m10E\)\" is similar to \
+existing symbols \!\({m10, m10D, m10L, m10S}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(914.036174785100463`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m10W = \((1 - 0.165)\) m10\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m10W\)\" is similar to \
+existing symbols \!\({m10, m10D, m10E, m10L, m10S}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(4625.57700573065933`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m14D = 0\)], "Input"],
+
+Cell[BoxData[
+    \(0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m13D = m10D\)], "Input"],
+
+Cell[BoxData[
+    \(0.620000000000000017`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m13F = 0\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell1" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m13F\)\" is similar to \
+existing symbol \"\!\(m13D\)\"."\)], "Message"],
+
+Cell[BoxData[
+    \(0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m13W = 0\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m13W\)\" is similar to \
+existing symbols \!\({m13D, m13F}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(0\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m14W = m10W\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell1" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m14W\)\" is similar to \
+existing symbol \"\!\(m14D\)\"."\)], "Message"],
+
+Cell[BoxData[
+    \(4625.57700573065933`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m14F = 0.015/0.855\ m14W\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m14F\)\" is similar to \
+existing symbols \!\({m14D, m14W}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(81.1504737847483959`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m14E = 13/85.5\ m14W\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m14E\)\" is similar to \
+existing symbols \!\({m14D, m14F, m14W}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(703.304106134486239`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m13E = m10E - m14E\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m13E\)\" is similar to \
+existing symbols \!\({m13D, m13F, m13W}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(210.732068650614223`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m16F = m14F\)], "Input"],
+
+Cell[BoxData[
+    \(81.1504737847483959`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m16 = m16F/0.026\)], "Input"],
+
+Cell[BoxData[
+    \(3121.17206864416951`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m16W = \((1 -  .2 -  .026)\) m16\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m16W\)\" is similar to \
+existing symbols \!\({m16, m16F}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(2415.78718113058732`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m16E = 0.2  m16\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m16E\)\" is similar to \
+existing symbols \!\({m16, m16F, m16W}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(624.234413728833903`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m17E = m14E - m16E\)], "Input"],
+
+Cell[BoxData[
+    \(79.069692405652292`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m17 = m17E/0.013\)], "Input"],
+
+Cell[BoxData[
+    \(6082.28403120402205`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m17W = \((1 -  .013)\) m17\)], "Input"],
+
+Cell[BoxData[
+    \(General::"spell" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(m17W\)\" is similar to \
+existing symbols \!\({m17, m17E}\)."\)], "Message"],
+
+Cell[BoxData[
+    \(6003.21433879836963`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m15W = m16W + m17W - m14W\)], "Input"],
+
+Cell[BoxData[
+    \(3793.42451419829718`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(m15 = m15W\ \ \ \ \ \ \  (*\ Answer\ for\ Part\ c\ *) \)\)], "Input"],
+
+Cell[BoxData[
+    \(3793.42451419829718`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(m16\ \ \ \ \ \ \  (*\ Answer\ for\ Part\ c\ *) \)\)], "Input"],
+
+Cell[BoxData[
+    \(3121.17206864416951`\)], "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(m17\ \ \ \ \ \ \  (*\ Answer\ for\ Part\ c\ *) \)\)], "Input"],
+
+Cell[BoxData[
+    \(6082.28403120402205`\)], "Output"]
+}, Open  ]]
+},
+FrontEndVersion->"Microsoft Windows 3.0",
+ScreenRectangle->{{0, 1280}, {0, 996}},
+WindowSize->{486, 727},
+WindowMargins->{{0, Automatic}, {Automatic, 5}}
+]
+
+
+(***********************************************************************
+Cached data follows.  If you edit this Notebook file directly, not using
+Mathematica, you must remove the line containing CacheID at the top of 
+the file.  The cache data will then be recreated when you save this file 
+from within Mathematica.
+***********************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[1731, 51, 444, 9, 170, "Input"],
+Cell[2178, 62, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2398, 72, 78, 1, 30, "Input"],
+Cell[2479, 75, 79, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2595, 81, 68, 1, 30, "Input"],
+Cell[2666, 84, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2886, 94, 78, 1, 30, "Input"],
+Cell[2967, 97, 63, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3067, 103, 120, 2, 50, "Input"],
+Cell[3190, 107, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3410, 117, 78, 1, 30, "Input"],
+Cell[3491, 120, 79, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3607, 126, 68, 1, 30, "Input"],
+Cell[3678, 129, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3898, 139, 78, 1, 30, "Input"],
+Cell[3979, 142, 63, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4079, 148, 120, 2, 50, "Input"],
+Cell[4202, 152, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4422, 162, 79, 1, 30, "Input"],
+Cell[4504, 165, 79, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4620, 171, 69, 1, 30, "Input"],
+Cell[4692, 174, 183, 5, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4912, 184, 79, 1, 30, "Input"],
+Cell[4994, 187, 63, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5094, 193, 108, 2, 50, "Input"],
+Cell[5205, 197, 174, 3, 44, "Message"],
+Cell[5382, 202, 43, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5462, 208, 59, 1, 30, "Input"],
+Cell[5524, 211, 174, 3, 44, "Message"],
+Cell[5701, 216, 51, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5789, 222, 51, 1, 30, "Input"],
+Cell[5843, 225, 178, 3, 44, "Message"],
+Cell[6024, 230, 43, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6104, 236, 59, 1, 30, "Input"],
+Cell[6166, 239, 178, 3, 44, "Message"],
+Cell[6347, 244, 51, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6435, 250, 82, 1, 50, "Input"],
+Cell[6520, 253, 45, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6602, 259, 50, 1, 30, "Input"],
+Cell[6655, 262, 42, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6734, 268, 50, 1, 30, "Input"],
+Cell[6787, 271, 42, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6866, 277, 52, 1, 30, "Input"],
+Cell[6921, 280, 44, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7002, 286, 53, 1, 30, "Input"],
+Cell[7058, 289, 45, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7140, 295, 50, 1, 30, "Input"],
+Cell[7193, 298, 42, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7272, 304, 115, 2, 50, "Input"],
+Cell[7390, 308, 1766, 42, 162, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9193, 355, 220, 3, 90, "Input"],
+Cell[9416, 360, 155, 2, 48, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9608, 367, 89, 1, 50, "Input"],
+Cell[9700, 370, 791, 11, 124, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10528, 386, 340, 7, 110, "Input"],
+Cell[10871, 395, 179, 3, 44, "Message"],
+Cell[11053, 400, 55, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11145, 406, 78, 1, 30, "Input"],
+Cell[11226, 409, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11317, 415, 50, 1, 30, "Input"],
+Cell[11370, 418, 190, 3, 63, "Message"],
+Cell[11563, 423, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11654, 429, 59, 1, 30, "Input"],
+Cell[11716, 432, 196, 3, 63, "Message"],
+Cell[11915, 437, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12006, 443, 41, 1, 30, "Input"],
+Cell[12050, 446, 35, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12122, 452, 44, 1, 30, "Input"],
+Cell[12169, 455, 55, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12261, 461, 41, 1, 30, "Input"],
+Cell[12305, 464, 175, 3, 44, "Message"],
+Cell[12483, 469, 35, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12555, 475, 41, 1, 30, "Input"],
+Cell[12599, 478, 179, 3, 44, "Message"],
+Cell[12781, 483, 35, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12853, 489, 44, 1, 30, "Input"],
+Cell[12900, 492, 175, 3, 44, "Message"],
+Cell[13078, 497, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13169, 503, 57, 1, 30, "Input"],
+Cell[13229, 506, 179, 3, 44, "Message"],
+Cell[13411, 511, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13502, 517, 53, 1, 30, "Input"],
+Cell[13558, 520, 185, 3, 63, "Message"],
+Cell[13746, 525, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13837, 531, 51, 1, 30, "Input"],
+Cell[13891, 534, 185, 3, 63, "Message"],
+Cell[14079, 539, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14170, 545, 44, 1, 30, "Input"],
+Cell[14217, 548, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14308, 554, 49, 1, 30, "Input"],
+Cell[14360, 557, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14451, 563, 65, 1, 30, "Input"],
+Cell[14519, 566, 178, 3, 44, "Message"],
+Cell[14700, 571, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14791, 577, 48, 1, 30, "Input"],
+Cell[14842, 580, 184, 3, 63, "Message"],
+Cell[15029, 585, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15120, 591, 51, 1, 30, "Input"],
+Cell[15174, 594, 53, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15264, 600, 49, 1, 30, "Input"],
+Cell[15316, 603, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15407, 609, 59, 1, 30, "Input"],
+Cell[15469, 612, 178, 3, 44, "Message"],
+Cell[15650, 617, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15741, 623, 58, 1, 30, "Input"],
+Cell[15802, 626, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15893, 632, 91, 1, 30, "Input"],
+Cell[15987, 635, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[16078, 641, 84, 1, 30, "Input"],
+Cell[16165, 644, 54, 1, 29, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[16256, 650, 84, 1, 30, "Input"],
+Cell[16343, 653, 54, 1, 29, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+
+(***********************************************************************
+End of Mathematica Notebook file.
+***********************************************************************)
+

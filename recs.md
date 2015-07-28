@@ -5,53 +5,29 @@ description: "What to send me to help me write a letter of recommendation"
 ---
 {% include JB/setup %}
 
-If you would like for me to write you a letter of recommendation, and
-are not able to find me in person to request it, please send me an
-email request prior to filling out the below information. Please
-describe in at most 1 paragraph why you think I will be able to write
-you a good letter of recommendation, what the recommendation is for,
-and a rough idea of when the deadline(s) will be.
+Email is the most effective way to ask me for a letter of recommendation. If you ask me in
+person, by phone, or by text, I will ask you to send me the following by email anyway. The
+items I need are:
 
-If I have agreed to write a recommendation for you, and the
-application requires snail mail, please give me a folder containing 
+* A list of the organizations to which you are applying that require a letter of recommendation
+with approximate due dates
+* A statement of the places we've interacted and when, for example courses you've taken
+from me or courses you've TA'd for me
+* An unofficial copy of your transcript
 
-* all necessary forms, and
-* addressed HMC Math Dept envelopes (see Jocelyn Olds-McSpadden)
-without stamps.
+If I have agreed to write a recommendation for you and the
+application requires snail mail (exceedingly rare these days), please also give me
+a folder containing:
 
-Additionally please send me an electronic copy of the following:
+* all necessary forms
+* stamped and addressed HMC Eng Dept envelopes (see the Engineering Office Staff for
+the envelopes)
 
-* an unofficial copy of your transcript
-* a copy of your personal statement (if applicable)
-
-Furthermore, at least two weeks before the first letter is due, e-mail
-me your answers to the following questions
-(the more details the better):
-
-1. What is your name, year, and major?
-1. For what are you applying (e.g., scholarship, graduate school, summer
-research experience)? List the programs to which you are applying,
-together with due dates.
-1. How long have I known you (years and months), and what is my
-relationship to you (instructor, research advisor, etc.)?
-1. For what classes have I had you, what final grades did I assign you,
-and how did you distinguish yourself in my classes?
-1. How would you describe yourself? What are your strengths? What are
-your weaknesses? Your response to this question is very important to
-me, so the more details the better.
-1. What are some of your academic and nonacademic accomplishments?
-1. What makes me particularly qualified to write a letter for you?
-1. What makes you particularly qualified for this position/honor/award?
-1. What are your long term goals and will this position/honor/award help?
-If so, how?
-1. Additional comments (REU's, summer research, interesting jobs,
-hobbies, etc.)?
-
-Please send me e-mail reminders as deadlines approach, and feel free
-to chat with me about other ways you can make the letter writing
-process go as smoothly as possible for you and your letter
-writers. Good luck! 
+If you are requesting letters of recommendation for the first time, please try to give me
+at least a month before the first due date. If I've already written at least one letter
+for you, please try to give me two weeks before any new requests are due. In emergencies,
+I can shorten the turnaround, but you better have a good reason for the short notice,
+and it better not be during E80 launch weeks, or when I'm editing Clinic reports.
 
 ---
 
-Based on [Michael Orrison's page](http://www.math.hmc.edu/~orrison/teaching/recs.html).

@@ -1,0 +1,1094 @@
+(***********************************************************************
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used on any computer system with Mathematica 3.0,
+MathReader 3.0, or any compatible application. The data for the notebook 
+starts with the line of stars above.
+
+To get the notebook into a Mathematica-compatible application, do one of 
+the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing the 
+word CacheID, otherwise Mathematica-compatible applications may try to 
+use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+***********************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     14574,        756]*)
+(*NotebookOutlinePosition[     15225,        779]*)
+(*  CellTagsIndexPosition[     15181,        775]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+Cell[BoxData[
+    \( (*\ 
+      \(A\ Mathematica\ Solution\ for\ Problem\ 6.59\ in\ Felder\ &\)\ 
+        Rousseau\ *) \)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(\( (*\ Start\ by\ calculating\ Molecular\ Weights\ *) \n<< 
+      Miscellaneous`ChemicalElements`\)\)], "Input",
+  FontSize->18],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MH = 2\ AtomicWeight[Hydrogen]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(2.01588000000000011`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(ME = 
+      2\ AtomicWeight[Carbon] + 6\ AtomicWeight[Hydrogen] + 
+        AtomicWeight[Oxygen]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(46.0690400000000011`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(MA = 
+      2\ AtomicWeight[Carbon] + 4\ AtomicWeight[Hydrogen] + 
+        AtomicWeight[Oxygen]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(44.05316`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\(m8 = 1500\ \  (*\ Product\ Stream\ *) \)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1500\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Do\ mass\ and\ mole\ balances\ on\ Product\ Stream\ *) x8A = 0.96
+      \)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    StyleBox["0.959999999999999964`",
+      StyleBoxAutoDelete->True,
+      PrintPrecision->2]], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(x8E = 1 - x8A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.0400000000000000355`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n8A = x8A\ n8\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    RowBox[{
+      StyleBox["0.959999999999999964`",
+        StyleBoxAutoDelete->True,
+        PrintPrecision->2], " ", "n8"}]], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m8A = MA\ n8A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(42.2910335999999986`\ n8\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n8E = x8E\ n8\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.0400000000000000355`\ n8\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(m8E = ME\ n8E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1.84276160000000182`\ n8\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq1 = m8 == m8A + m8E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1500 == 44.1337952000000033`\ n8\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(Solve[eq1, n8]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \({{n8 \[Rule] 33.9875597193145972`}}\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n8 = n8 /. %[\([1]\)]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(33.9875597193145972`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Mole\ Balance\ around\ Distillation\ Column\ *) \n
+    eq2 = n7 == n8 + n9\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n7 == \(33.9875597193145972`\[InvisibleSpace]\) + n9\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq3 = n7\ x7A == n8\ x8A\  + \ n9\ x9A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n7\ x7A == \(32.6280573305420151`\[InvisibleSpace]\) + n9\ x9A\)], 
+  "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq4 = n7\ x7E == n8\ x8E + n9\ x9E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n7\ x7E == \(1.359502388772585`\[InvisibleSpace]\) + n9\ x9E\)], 
+  "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(x7A = 0.5\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    StyleBox["0.5`",
+      StyleBoxAutoDelete->True,
+      PrintPrecision->1]], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(x7E = 1 - x7A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.5`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(x9E = 0.95\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    StyleBox["0.95`",
+      StyleBoxAutoDelete->True,
+      PrintPrecision->2]], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(x9A = 1 - x9E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.0500000000000000444`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(sol1 = Solve[{eq3, eq4}, {n7, n9}]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \({{n7 \[Rule] 68.7303985435028597`, n9 \[Rule] 34.7428388241882579`}}
+      \)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n7 = n7 /. sol1[\([1]\)]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(68.7303985435028597`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n9 = n9 /. sol1[\([1]\)]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.7428388241882579`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n7A = n7\ x7A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.3651992717514298`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n7E = n7\ x7E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.3651992717514298`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n9A = n9\ x9A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1.73714194120941423`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n9E = n9\ x9E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(33.0056968829788388`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Raoult' s\ Law\ and\ Antoine\ equation\ in\ Flash\ *) \n
+    T3 = \(-40\)\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(\(-40\)\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(log10pA = 6.81089 - 992/\((T3 + 230)\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1.58983736842105205`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(pA = 10^log10pA\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(38.8899485347013715`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(log10pE = 8.04494 - 1554.3/\((T3 + 222.65)\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(General::"spell1" \( : \ \) 
+      "Possible spelling error: new symbol name \"\!\(log10pE\)\" is similar \
+to existing symbol \"\!\(log10pA\)\"."\)], "Message",
+  FontSize->18],
+
+Cell[BoxData[
+    \(\(-0.464778039967148615`\)\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(pE = 10^log10pE\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.342943013719235922`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(pressure = 760\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(760\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(y4A = x7A\ pA/pressure\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.0255854924570403685`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(y4E = x7E\ pE/pressure\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.000225620403762655197`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(y4H = 1 - y4A - y4E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.974188887139197134`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Mole\ Balance\ around\ Stripper\ *) \nn5H = n4H\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n4H\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n4H = y4H\ n4\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.974188887139197134`\ n4\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n6A = n4A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n4A\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n4A = n4\ y4A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.0255854924570403685`\ n4\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n6E = n4E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(n4E\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n4E = n4\ y4E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.000225620403762655197`\ n4\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Overall\ Mole\ Balance\ *) \neq5 = n4H == \[Xi]\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.974188887139197134`\ n4 == \[Xi]\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq6 = n4A + n8A == \[Xi]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(\(32.6280573305420151`\[InvisibleSpace]\) + 
+        0.0255854924570403685`\ n4 == \[Xi]\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(eq7 = n4E + n8E == n1E - \[Xi]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(\(1.359502388772585`\[InvisibleSpace]\) + 
+        0.000225620403762655197`\ n4 == n1E - \[Xi]\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(sol2 = Solve[{eq5, eq6, eq7}, {\[Xi], n4, n1E}]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \({{\[Xi] \[Rule] 33.5080930961721623`, n4 \[Rule] 34.3958892762285728`, 
+        n1E \[Rule] 34.8753558993710166`}}\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\[Xi] = \[Xi] /. sol2[\([1]\)]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(33.5080930961721623`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n4 = n4 /. sol2[\([1]\)]\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.3958892762285728`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n1 = \(n1E = n1E /. sol2[\([1]\)]\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.8753558993710166`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Finish\ around\ Loop\ *) \nn3A = n4A + n7A\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(35.2452350373815725`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n3E = n4E + n7E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(34.3729596861777109`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n3H = n4H\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(33.5080930961721534`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n2A = n9A\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(1.73714194120941423`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(n2E = n1E + n9E\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(67.8810527823498599`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Fractional\ Conversion\ in\ Reactor\ *) \n
+    fEone = \((n2E - n3E)\)/n2E\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.493629543484110211`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Fractional\ Conversion\ Overall\ *) \n
+    fEover = \((n1E - n6E - n8E)\)/n1E\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(0.96079573188746945`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Volumentric\ Flowrate\ in\ Reactor\ Feed\ *) \n
+    n2 = n2A + n2E\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(69.6181947235592701`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(R = 62.36\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    StyleBox["62.3600000000000065`",
+      StyleBoxAutoDelete->True,
+      PrintPrecision->4]], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(V2 = n2\ R\ \((280 + 273.15)\)/pressure\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \(3159.78976722495197`\)], "Output",
+  FontSize->18]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+    \(\( (*\ Assemble\ all\ of\ the\ answers\ in\ one\ place\ *) \n
+    answers = {n1E, n9, n5H, V2, fEover, fEone, n6E, n6A}\)\)], "Input",
+  FontSize->18],
+
+Cell[BoxData[
+    \({34.8753558993710166`, 34.7428388241882579`, 33.5080930961721534`, 
+      3159.78976722495197`, 0.96079573188746945`, 0.493629543484110211`, 
+      0.00776041442627827215`, 0.88003576563014203`}\)], "Output",
+  FontSize->18]
+}, Open  ]]
+},
+FrontEndVersion->"Microsoft Windows 3.0",
+ScreenRectangle->{{0, 1280}, {0, 996}},
+WindowSize->{682, 723},
+WindowMargins->{{Automatic, 21}, {Automatic, 48}}
+]
+
+
+(***********************************************************************
+Cached data follows.  If you edit this Notebook file directly, not using
+Mathematica, you must remove the line containing CacheID at the top of 
+the file.  The cache data will then be recreated when you save this file 
+from within Mathematica.
+***********************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+Cell[1709, 49, 148, 4, 61, "Input"],
+Cell[1860, 55, 148, 3, 61, "Input"],
+
+Cell[CellGroupData[{
+Cell[2033, 62, 79, 2, 35, "Input"],
+Cell[2115, 66, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2222, 73, 144, 4, 61, "Input"],
+Cell[2369, 79, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2476, 86, 144, 4, 61, "Input"],
+Cell[2623, 92, 59, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2719, 99, 91, 2, 35, "Input"],
+Cell[2813, 103, 54, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[2904, 110, 130, 3, 61, "Input"],
+Cell[3037, 115, 136, 4, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3210, 124, 62, 2, 35, "Input"],
+Cell[3275, 128, 72, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3384, 135, 62, 2, 35, "Input"],
+Cell[3449, 139, 168, 5, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3654, 149, 62, 2, 35, "Input"],
+Cell[3719, 153, 74, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3830, 160, 62, 2, 35, "Input"],
+Cell[3895, 164, 76, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4008, 171, 62, 2, 35, "Input"],
+Cell[4073, 175, 74, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4184, 182, 70, 2, 35, "Input"],
+Cell[4257, 186, 82, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4376, 193, 63, 2, 35, "Input"],
+Cell[4442, 197, 85, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4564, 204, 70, 2, 35, "Input"],
+Cell[4637, 208, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4744, 215, 132, 3, 61, "Input"],
+Cell[4879, 220, 102, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5018, 227, 87, 2, 35, "Input"],
+Cell[5108, 231, 115, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5260, 239, 83, 2, 35, "Input"],
+Cell[5346, 243, 113, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5496, 251, 58, 2, 35, "Input"],
+Cell[5557, 255, 119, 4, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5713, 264, 62, 2, 35, "Input"],
+Cell[5778, 268, 54, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[5869, 275, 59, 2, 35, "Input"],
+Cell[5931, 279, 120, 4, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6088, 288, 62, 2, 35, "Input"],
+Cell[6153, 292, 72, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6262, 299, 83, 2, 35, "Input"],
+Cell[6348, 303, 125, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6510, 311, 73, 2, 35, "Input"],
+Cell[6586, 315, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6693, 322, 73, 2, 35, "Input"],
+Cell[6769, 326, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[6876, 333, 62, 2, 35, "Input"],
+Cell[6941, 337, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7048, 344, 62, 2, 35, "Input"],
+Cell[7113, 348, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7220, 355, 62, 2, 35, "Input"],
+Cell[7285, 359, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7392, 366, 62, 2, 35, "Input"],
+Cell[7457, 370, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7564, 377, 131, 3, 61, "Input"],
+Cell[7698, 382, 57, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7792, 389, 87, 2, 35, "Input"],
+Cell[7882, 393, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7989, 400, 64, 2, 35, "Input"],
+Cell[8056, 404, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[8163, 411, 93, 2, 35, "Input"],
+Cell[8259, 415, 197, 4, 55, "Message"],
+Cell[8459, 421, 76, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[8572, 428, 64, 2, 35, "Input"],
+Cell[8639, 432, 71, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[8747, 439, 63, 2, 35, "Input"],
+Cell[8813, 443, 53, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[8903, 450, 71, 2, 35, "Input"],
+Cell[8977, 454, 72, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9086, 461, 71, 2, 35, "Input"],
+Cell[9160, 465, 74, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9271, 472, 68, 2, 35, "Input"],
+Cell[9342, 476, 71, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9450, 483, 105, 2, 61, "Input"],
+Cell[9558, 487, 53, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9648, 494, 62, 2, 35, "Input"],
+Cell[9713, 498, 75, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9825, 505, 58, 2, 35, "Input"],
+Cell[9886, 509, 53, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9976, 516, 62, 2, 35, "Input"],
+Cell[10041, 520, 76, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10154, 527, 58, 2, 35, "Input"],
+Cell[10215, 531, 53, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10305, 538, 62, 2, 35, "Input"],
+Cell[10370, 542, 78, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10485, 549, 105, 2, 61, "Input"],
+Cell[10593, 553, 84, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10714, 560, 73, 2, 35, "Input"],
+Cell[10790, 564, 138, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[10965, 572, 79, 2, 35, "Input"],
+Cell[11047, 576, 144, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11228, 584, 96, 2, 35, "Input"],
+Cell[11327, 588, 164, 3, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11528, 596, 79, 2, 35, "Input"],
+Cell[11610, 600, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11717, 607, 73, 2, 35, "Input"],
+Cell[11793, 611, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[11900, 618, 84, 2, 35, "Input"],
+Cell[11987, 622, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12094, 629, 100, 2, 61, "Input"],
+Cell[12197, 633, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12304, 640, 64, 2, 35, "Input"],
+Cell[12371, 644, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12478, 651, 58, 2, 35, "Input"],
+Cell[12539, 655, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12646, 662, 58, 2, 35, "Input"],
+Cell[12707, 666, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12814, 673, 64, 2, 35, "Input"],
+Cell[12881, 677, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[12988, 684, 132, 3, 61, "Input"],
+Cell[13123, 689, 71, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13231, 696, 135, 3, 61, "Input"],
+Cell[13369, 701, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13476, 708, 124, 3, 61, "Input"],
+Cell[13603, 713, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13710, 720, 58, 2, 35, "Input"],
+Cell[13771, 724, 135, 4, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13943, 733, 88, 2, 35, "Input"],
+Cell[14034, 737, 70, 2, 34, "Output"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14141, 744, 170, 3, 61, "Input"],
+Cell[14314, 749, 244, 4, 59, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+
+
+
+(***********************************************************************
+End of Mathematica Notebook file.
+***********************************************************************)
+

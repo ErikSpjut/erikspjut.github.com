@@ -7,33 +7,48 @@ group: navigation
 {% include JB/setup %}
 
 ## Current Classes
-S2015
 
-* [e80: Experimental Engineering](http://www.eng.hmc.edu/NewE80/index.html) - Taught with [Angie Lee][al], [Albert Dato][ad], [Mary Cardenas][mc] & [Chris Clark][cc]
+* [E59: Introduction to Engineering Systems](/courses_taught/baby_stems.html)
+* [E133: Chemical Reaction Engineering](/courses_taught/chem_react.html)
+* [Engineering Clinic](https://www.hmc.edu/clinic/)
 
 ## Past Classes
 ### At Harvey Mudd
-* F2014: e134: Advanced Thermodynamics
-* S2014: [e80: Experimental Engineering](http://www.eng.hmc.edu/NewE80/index.html)
-* F2013: [e85: Digital Design and Computer Architecture](http://pages.hmc.edu/jspjut/class/f2013/e85)
-* S2013: [e80: Experimental Engineering](http://www.eng.hmc.edu/NewE80/index.html)
-* F2012: [e85: Digital Design and Computer Architecture](https://sites.google.com/a/g.hmc.edu/e85f2012) - Taught with Karl Wang
-* S2012: [e80: Experimental Engineering](http://www.eng.hmc.edu/NewE80/index.html)
+* [Engineering Clinic](https://www.hmc.edu/clinic/) taught every year.
+* [Introduction to Engineering Systems](/courses_taught/baby_stems.html) last taught F2015.
+* [Chemical Reaction Engineering](/courses_taught/chem_react.html) last taught F2015.
+* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2015.
+* [Advanced Thermodynamics](/courses_taught/adv_therm.html) last taught F2014.
+* [Integrative Experiences ePortfolio](/courses_taught/port.html) last taught F2008.
+* [Preliminary Design](/courses_taught/pre_des.html) last taught F2007.
+* [Materials Engineering](/courses_taught/matl_eng.html) last taught S2007.
+* [Introduction to Engineering Design](/courses_taught/E4.html) last taught S2006.
+* [Heat Transfer](/courses_taught/heat.html) last taught S2006.
+* [Design Realization and Representation](/courses_taught/E8.html) last taught F2003.
+* [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2003.
+* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2003.
+* [Advanced Systems Engineering I & II](/courses_taught/big_stems.html) last taught S1999.
+* [Fundamentals of Music](/courses_taught/mus_fund.html) last taught F1993.
 
 ### At Olin
-* S2010: Modeling and Control
+* S2010: Intro. to Sensors, Instrumentation and Measurement 
+* F2009-S2010 Senior Capstone Program in Engineering
 * F2009: Design Nature
-* F2009: Modeling and Control
+* F2009: Modeling and Control I
 
 
 ### At Cal Poly Pomona
-* S2002: Principles of Chemical Engineering
+* S2002: Stoichiometry II Lab
 
 ### At Caltech
 * F2001: Heterogeneous Kinetics
 
-### At MIT
-* S1988: 
+### At MIT (1985-1988)
+* Introduction to Solid-State Chemistry (first-year level)
+* Physical Chemistry of Materials (second-year level)
+* Chemical Metallurgy (fourth-year level)
+* Kinetic Processes in Materials (graduate level)
+ 
 .
 
    [al]: https://www.hmc.edu/engineering/faculty-staff/

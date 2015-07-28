@@ -9,6 +9,8 @@ paginate_path: "blog/page:num"
 
 # redcarpet allows ``` to work better
 markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -30,7 +32,6 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-#production_url : http://jspjut.github.io
 production_url : http://erik.spjut.me
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
