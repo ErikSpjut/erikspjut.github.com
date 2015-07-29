@@ -10,6 +10,11 @@ tagline: Teaching Details
 Advanced Systems Engineering is a two-semester sequence
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |

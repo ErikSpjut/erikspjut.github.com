@@ -11,6 +11,11 @@ Chemical and Thermal Processes was known as Chemical Engineering Principles
 prior to the curriculum revision in 2000
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |

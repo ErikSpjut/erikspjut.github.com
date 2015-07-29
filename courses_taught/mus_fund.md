@@ -10,7 +10,12 @@ tagline: Teaching Details
 Fundamentals of Music is an introductory music theory course taught at Scripps College.
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
-| MUS3 | Fall | 1993 | Lecture, Lab, Practicum | [Link](N/A) | N/A | N/A |
+| MUS3 | Fall | 1993 | Lecture, Lab, Practicum | N/A | N/A | N/A |

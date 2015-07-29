@@ -11,10 +11,15 @@ Heat Transfer was an Engineering Technical Elective. It has largely been superse
 Transport Phenomena.
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
-| E132 | Spring | 2006 | Traditional Lecture | [Link](N/A) | N/A | N/A |
-| E132 | Spring | 2005 | Traditional Lecture | [Link](N/A) | N/A | N/A |
-| E132 | Spring | 2004 | Traditional Lecture | [Link](N/A) | N/A | N/A |
-| E166 | Spring | 1990 | Traditional Lecture | [Link](N/A) | N/A | N/A |
+| E132 | Spring | 2006 | Traditional Lecture | N/A | N/A | N/A |
+| E132 | Spring | 2005 | Traditional Lecture | N/A | N/A | N/A |
+| E132 | Spring | 2004 | Traditional Lecture | N/A | N/A | N/A |
+| E166 | Spring | 1990 | Traditional Lecture | N/A | N/A | N/A |

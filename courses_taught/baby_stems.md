@@ -11,6 +11,11 @@ Introduction to Engineering Systems was known as Introduction to Systems Enginee
 prior to the curriculum revision in 2000
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |

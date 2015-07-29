@@ -11,7 +11,7 @@ as Erik. I usually sign formal documents as R. Erik Spjut.
 The word _spjut_ is the Swedish word for spear or javelin. In Swedish, the letter
 *j* is pronounced like the English *y* in *yes*. The pronunciation is therefore
 *spyoot* which rhymes with *cute*. I don't, but there are those who qualify as cute Spjuts.
-The [little Lego spears][ls] are also cute spjuts.
+These [little Lego spears][ls] are also cute spjuts.
 
 When my great grandfather, [Otto Albert Malmstedt][OAM], was drafted in the Swedish army, his
 footlocker and bunk had already been stenciled with Spjut, so the army informed him that
@@ -22,4 +22,4 @@ Spjuts or Spjutes in the United Stated are descendents of my great grandfather, 
 of the (few) Spjuts in Sweden are closely related to us.
 
 [OAM]: https://familysearch.org/photos/people/1048792 "Otto Albert Malmstedt Spjut"
-[ls]: http://www.wantedbricks.com/?attachment_id=16439 "Little Lego Spear"
+[ls]: https://www.flickr.com/photos/sarah-mitt/8733951602 "Little Lego Spears"

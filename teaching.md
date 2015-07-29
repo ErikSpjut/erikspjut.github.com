@@ -10,11 +10,11 @@ group: navigation
 
 * [E59: Introduction to Engineering Systems](/courses_taught/baby_stems.html)
 * [E133: Chemical Reaction Engineering](/courses_taught/chem_react.html)
-* [Engineering Clinic](https://www.hmc.edu/clinic/)
+* [Engineering Clinic](/clinic.html)
 
 ## Past Classes
 ### At Harvey Mudd
-* [Engineering Clinic](https://www.hmc.edu/clinic/) taught every year.
+* [Engineering Clinic](/clinic.html) taught every year.
 * [Introduction to Engineering Systems](/courses_taught/baby_stems.html) last taught F2015.
 * [Chemical Reaction Engineering](/courses_taught/chem_react.html) last taught F2015.
 * [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2015.

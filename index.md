@@ -25,19 +25,26 @@ My CV is available in [pdf](files/CV_JUL_2015.pdf) and [html](CV_JUL_2015.html).
 
 [About my name](/about_spjut.html)
 
-{{ Fixing my CV is high priority }}
-
-
 ## Teaching
 
-Current: 
+### At Harvey Mudd
+* [Engineering Clinic](/clinic.html) taught every year.
+* [Introduction to Engineering Systems](/courses_taught/baby_stems.html) last taught F2015.
+* [Chemical Reaction Engineering](/courses_taught/chem_react.html) last taught F2015.
+* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2015.
+* [Advanced Thermodynamics](/courses_taught/adv_therm.html) last taught F2014.
+* [Integrative Experiences ePortfolio](/courses_taught/port.html) last taught F2008.
+* [Preliminary Design](/courses_taught/pre_des.html) last taught F2007.
+* [Materials Engineering](/courses_taught/matl_eng.html) last taught S2007.
+* [Introduction to Engineering Design](/courses_taught/E4.html) last taught S2006.
+* [Heat Transfer](/courses_taught/heat.html) last taught S2006.
+* [Design Realization and Representation](/courses_taught/E8.html) last taught F2003.
+* [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2003.
+* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2003.
+* [Advanced Systems Engineering I & II](/courses_taught/big_stems.html) last taught S1999.
+* [Fundamentals of Music](/courses_taught/mus_fund.html) last taught F1993.
 
-* [E59: Introduction to Engineering Systems](/courses_taught/baby_stems.html)
-* [E133: Chemical Reaction Engineering](/courses_taught/chem_react.html)
-
-{{ fill in the correct links when available }}
-
-[Other classes](teaching.html) I've taught.
+Olin, CalPoly Pomona, Caltech, and MIT courses are listed [here](/teaching.html).
 
 For students: [How to Request a Letter of Recommendation](/recs.html)
 
@@ -51,6 +58,8 @@ I have consulted for a wide variety of companies and organizations in the follow
 * Analysis and Design of Experiments
 * Single and Multiphase Fluid Flow
 
+Further details are available [here](/consulting.html). [Contact me](mailto:erik_spjut@hmc.edu) if you have a potential
+consulting project.
 ## Special Projects
 
 While not directly sponsored research or course development, I've done a number of special
@@ -65,10 +74,12 @@ projects in connection with curriculum development, consulting, research, or for
 
 ## Research
 
-My research interests include Heterogeneous Kinetics, Radiative Heat Transfer,
-Containerless Processing, Process Control, and Automation of Laboratory
-equipment.
+My research interests include active learning as applied to engineering, inertial measurement and Kalman filtering,
+vibrational system ID, the physics of rocket flight, MEMS and other sensors, data acquisition and error analysis,
+adaptive-optics, heterogeneous reactions, aerosols, containerless processing of materials,
+non-contact temperature measurement, computer-controlled experimental design, radiative scattering,
+absorption and emission from metallic and non-metallic aerosols, tribocharging and charge stability on heated aerosols,
+supercooling of metals and ceramics, process-sensors, and feedback-control.
 
-Selected Recent Publications:
 
 [Full publication list](research.html).

@@ -10,7 +10,12 @@ to fulfill their Integrative Experience requirement. The Integrative Experience 
 has subsequently been eliminated.
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
-| IE179P | Fall | 2008 | On-line, 1-on-1 meetings, Team Taught | [Link](N/A) | N/A | N/A |
+| IE179P | Fall | 2008 | On-line, 1-on-1 meetings, Team Taught | N/A | N/A | N/A |

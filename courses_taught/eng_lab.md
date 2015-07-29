@@ -10,6 +10,11 @@ tagline: Teaching Details
 Engineering Laboratory is a Sophomore-level course
 
 ## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+</style>
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
