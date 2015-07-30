@@ -9,9 +9,9 @@ East High Anthology was released in 1995 at the end of my first sabbatical. It w
 on cassette tape because CDs were too expensive at the time. It was recorded 
 on a Mac Quadra 605 using a cheap mic and a borrowed mixer. It was in the pre-AutoTune
 days. I used a method called Linear Prediction to correct the pitch issues and shift
-my from a bass to a pop singer. A number of custom Fortran codes were used for the processing.
+my voice from a bass to a pop singer. A number of custom Fortran codes were used for the processing.
 
-The original liner notes are reproduced below:
+**The original liner notes are reproduced below:**
 
 For the lucky few, high school was three or four years of unrestrained joy: State-Champion
 football teams, endless parties with the in-crowd, romantic bliss, courteous and exciting teachers,
@@ -23,7 +23,7 @@ For me, Salt Lake City High School East (Yes, the same East High that Roseanne B
 attended) was a bittersweet experience. I was the waterboy for a state-champion football
 team in my junior year. My senior year was our football coach's first losing season. I had
 some incredibly exciting teachers and some dreadfully boring ones. I had occasional mutual
-twitterpation and some disasterous romantic failures. Most people feel at least some
+twitterpation and some disastrous romantic failures. Most people feel at least some
 nostalgia for high school. However, I can't get nostalgic for high school because I documented
 some of my most bitter moments (and some of the less bitter) with songs. Whenever I play
 these songs the original emotions come flooding back to me. I have long wanted to record or
