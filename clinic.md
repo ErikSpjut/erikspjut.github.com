@@ -11,7 +11,8 @@ The Engineering Clinic Program started in 1963. It is a sponsored Third-/Fourth-
 A good deal of information can be found [here](https://www.hmc.edu/clinic/).
 A brief history can be found [here](https://www.hmc.edu/clinic/history-of-the-clinic-program/). Clinic 
 has grown from its start in Engineering to include Computer Science, Physics, Math, and a
-Global Program. The concept of Clinic has been copied widely but was radically different in 1963.
+Global Program. The concept of Clinic has been copied widely but was radically different 
+from the prevailing engineering pedagogy in 1963.
 
 Each student-led project has a Faculty Advisor who is a coach or a mentor to the team,
 and not a typical Principal Investigator. However, the Faculty Advisor typically learns
