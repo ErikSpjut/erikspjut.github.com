@@ -19,6 +19,7 @@ th, td {
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E82 | Spring | 2016 | Flipped Classroom, Team Taught | [On Sakai](https://sakai.claremont.edu:8443/portal) | N/A | N/A |
 | E82 | Spring | 2003 | Student-led Seminar | [Link](/E82_Website/index.html) | N/A | N/A |
 | E82 | Fall | 2002 | Student-led Seminar | [Link](/E82_Website/index.html) | N/A | N/A |
 | E94 | Spring | 1996 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |

@@ -8,16 +8,18 @@ group: navigation
 
 ## Current Classes
 
-* [E59: Introduction to Engineering Systems](/courses_taught/baby_stems.html)
-* [E133: Chemical Reaction Engineering](/courses_taught/chem_react.html)
+* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2016.
+* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2016.
 * [Engineering Clinic](/clinic.html)
 
 ## Past Classes
+
 ### At Harvey Mudd
 * [Engineering Clinic](/clinic.html) taught every year.
+* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2016.
+* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2016.
 * [Introduction to Engineering Systems](/courses_taught/baby_stems.html) last taught F2015.
 * [Chemical Reaction Engineering](/courses_taught/chem_react.html) last taught F2015.
-* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2015.
 * [Advanced Thermodynamics](/courses_taught/adv_therm.html) last taught F2014.
 * [Integrative Experiences ePortfolio](/courses_taught/port.html) last taught F2008.
 * [Preliminary Design](/courses_taught/pre_des.html) last taught F2007.
@@ -26,7 +28,6 @@ group: navigation
 * [Heat Transfer](/courses_taught/heat.html) last taught S2006.
 * [Design Realization and Representation](/courses_taught/E8.html) last taught F2003.
 * [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2003.
-* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2003.
 * [Advanced Systems Engineering I & II](/courses_taught/big_stems.html) last taught S1999.
 * [Fundamentals of Music](/courses_taught/mus_fund.html) last taught F1993.
 

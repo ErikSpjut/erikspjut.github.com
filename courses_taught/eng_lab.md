@@ -18,6 +18,7 @@ th, td {
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E80 | Spring | 2016 | Lab, Lecture, Field Experience, Team Taught | [Link](http://www.eng.hmc.edu/NewE80/index.html) | N/A | N/A |
 | E80 | Spring | 2015 | Lab, Lecture, Field Experience, Team Taught | [Link](http://www.eng.hmc.edu/NewE80/index.html) | N/A | N/A |
 | E80 | Spring | 2014 | Lab, Lecture, Field Experience, Team Taught | [Link](http://www.eng.hmc.edu/NewE80/index.html) | N/A | N/A |
 | E80 | Spring | 2013 | Lab, Lecture, Field Experience, Team Taught | [Link](http://www.eng.hmc.edu/NewE80/index.html) | N/A | N/A |

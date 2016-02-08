@@ -20,7 +20,7 @@ th, td {
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
 | E59 | Fall | 2015 | Lecture, Recitation, Team Taught | <N/A> | N/A | N/A |
-| E59 | Fall | 2013 | Lecture, Recitation, Team Taught | <Sakai> | N/A | N/A |
+| E59 | Fall | 2013 | Lecture, Recitation, Team Taught | [On Sakai](https://sakai.claremont.edu:8443/portal) | N/A | N/A |
 | E53 | Fall | 1992 | Lecture, Recitation, Team Taught | <N/A> | N/A | N/A |
 | E53 | Fall | 1991 | Lecture, Recitation, Team Taught | <N/A> | N/A | N/A |
 | E53 | Fall | 1990 | Lecture, Recitation, Team Taught | <N/A> | N/A | N/A |
