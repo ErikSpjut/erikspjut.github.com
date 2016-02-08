@@ -60,6 +60,7 @@ I have consulted for a wide variety of companies and organizations in the follow
 
 Further details are available [here](/consulting.html). [Contact me](mailto:erik_spjut@hmc.edu) if you have a potential
 consulting project.
+
 ## Special Projects
 
 While not directly sponsored research or course development, I've done a number of special

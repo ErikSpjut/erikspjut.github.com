@@ -9,8 +9,9 @@ paginate: 8
 paginate_path: "blog/page:num"
 
 # redcarpet allows ``` to work better
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+# changed from redcarpet at Github's request 8 FEB 2016
+kramdown:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 
 # Themes are encouraged to use these universal variables 
