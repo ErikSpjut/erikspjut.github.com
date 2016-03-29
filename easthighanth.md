@@ -58,7 +58,7 @@ Harvey Mudd College
 Claremont, CA91711.
 E.S. 6/95
 
-##I Remember
+## I Remember
 Long ago and far away,  
 as all stories used to say,  
 We visited a land both romanticized and painful.  
@@ -228,7 +228,7 @@ Don't let me go. I know I'll hate to just look back and
 
 Think about the good times.
 
-#Polished Chrome
+## Polished Chrome
 Intense the sun.  
 Cry for the cold.  
 Look to the East.  
