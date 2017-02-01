@@ -6,11 +6,10 @@ group: navigation
 ---
 {% include JB/setup %}
 
-## Current Classes
+I am currently on Sabbatical and I'm working on course development for a technical elective in advanced rocketry.
 
-* [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2016.
-* [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2016.
-* [Engineering Clinic](/clinic.html)
+## Current Classes
+* Currently on Sabbatical.
 
 ## Past Classes
 
