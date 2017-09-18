@@ -6,10 +6,10 @@ group: navigation
 ---
 {% include JB/setup %}
 
-I am currently on Sabbatical and I'm working on course development for a technical elective in advanced rocketry.
 
 ## Current Classes
-* Currently on Sabbatical.
+* [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2017.
+* [Engineering Clinic](/clinic.html) taught every year.
 
 ## Past Classes
 

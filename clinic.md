@@ -61,6 +61,7 @@ th, td {
 	<tr>
 		<th>Year</th> <th>Sponsor</th> <th>Title</th>
 	</tr>
+	<tr><td>2017/2018</td> <td>Ceremod Inc.</td> <td>Deep Brain Cooling</td></tr>
 	<tr><td>2015/2016</td> <td>BiMBy</td> <td>Big Mass Battery: Engineering Challenges and Feasibility</td></tr>
 	<tr><td>2015/2016</td> <td>AT&T (DIRECTV)</td> <td>Smartphone-Powered DIRECTV Antenna Installation</td></tr>
 	<tr><td>2014/2015</td> <td>Rocketry Organization of California</td> <td>Multi-Channel Wireless Launch Controller</td></tr>

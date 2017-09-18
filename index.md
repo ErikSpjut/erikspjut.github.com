@@ -29,6 +29,7 @@ My CV is available in [pdf](files/CV_JUL_2015.pdf) and [html](CV_JUL_2015.html).
 
 ### At Harvey Mudd
 * [Engineering Clinic](/clinic.html) taught every year.
+* [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2017.
 * [Engineering Laboratory](/courses_taught/eng_lab.html) last taught S2016.
 * [Chemical and Thermal Processes](/courses_taught/chem_therm_p.html) last taught S2016.
 * [Introduction to Engineering Systems](/courses_taught/baby_stems.html) last taught F2015.
@@ -40,7 +41,6 @@ My CV is available in [pdf](files/CV_JUL_2015.pdf) and [html](CV_JUL_2015.html).
 * [Introduction to Engineering Design](/courses_taught/E4.html) last taught S2006.
 * [Heat Transfer](/courses_taught/heat.html) last taught S2006.
 * [Design Realization and Representation](/courses_taught/E8.html) last taught F2003.
-* [Digital Electronics and Computer Engineering](/courses_taught/digital.html) last taught F2003.
 * [Advanced Systems Engineering I & II](/courses_taught/big_stems.html) last taught S1999.
 * [Fundamentals of Music](/courses_taught/mus_fund.html) last taught F1993.
 

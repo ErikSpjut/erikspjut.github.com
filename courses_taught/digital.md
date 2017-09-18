@@ -18,4 +18,5 @@ th, td {
 
 | Course | Sem | Year | Style | Website | Info | Final Exam or Project |
 | ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E85 | Fall | 2017 | Traditional Lecture, Lab | [Link](http://pages.hmc.edu/spjut/E85/index.md.html) | N/A | N/A |
 | E85 | Fall | 2003 | Traditional Lecture, Team Taught | N/A | N/A | N/A |
