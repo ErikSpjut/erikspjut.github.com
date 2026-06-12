@@ -1,0 +1,28 @@
+---
+title: The Degrees of Freedom Project
+---
+# Open educational resources in Chemical and Thermal Processes and High Power Rocketry
+
+I started the **Degrees of Freedom Project (DOFPro)** to convert previously developed instructional materials that relied on proprietary textbooks, software, and platforms previously developed instructional materials into resources released under **Creative Commons** licenses and supported by **open-source** tools. Work on DOFPro is ongoing, but the principal work was completed between September 2023 and March 2026.
+
+At present, DOFPro includes two major subject areas:
+
+- **Chemical and Thermal Processes (CTP)**
+- **High Power Rocketry (RCK)**
+
+Much of the original material was developed for engineering courses at **Harvey Mudd College**. Links to the current DOFPro resources are provided below.
+
+## DOFPro Home Page
+
+Here is the [DOFPro Home Page](https://dofpro.org).
+
+## Chemical and Thermal Processes (CTP)
+
+Here is the  [Chemical and Thermal Processes website](https://dofpro.org/CTP/).
+
+The full YouTube playlist is at [DOFPro CTP YouTube Playlist](https://www.youtube.com/playlist?list=PLf9RV6P-qIdDY3hgaCRIyv5ntljNfyENk)
+
+
+## High Power Rocketry (RCK)
+
+Here is the [High Power Rocketry website](https://dofpro.org/RCK/).

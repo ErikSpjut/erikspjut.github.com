@@ -10,3 +10,6 @@ Thumbs.db
 .rvmrc
 
 *~
+
+/.quarto/
+**/*.quarto_ipynb

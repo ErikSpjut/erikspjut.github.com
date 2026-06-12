@@ -1,0 +1,33 @@
+---
+title: Engineering Laboratory
+---
+
+[Link to the current Engineering catalog descriptions](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/)
+
+Engineering Laboratory is a Sophomore-level course
+
+## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+}
+</style>
+
+| Course | Sem | Year | Style | Website | Info | Final Exam or Project |
+| ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E80 | Spring | 2022 | Lab, Lecture, Field Experience, Team Taught | [Link](https://sites.google.com/g.hmc.edu/e80/home) | N/A | N/A |
+| E80 | Spring | 2016 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2015 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2014 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2013 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2012 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2011 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2009 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2008 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E80 | Spring | 2007 | Lab, Lecture, Field Experience, Team Taught | [Link](https://pages.hmc.edu/spjut/NewE80/) | N/A | N/A |
+| E54 | Spring | 2000 | Lab, Lecture, Team Taught | <N/A> | N/A | N/A |
+| E54 | Spring | 1999 | Lab, Lecture, Team Taught | <N/A> | N/A | N/A |
+| E54 | Spring | 1993 | Lab, Lecture, Team Taught | <N/A> | N/A | N/A |

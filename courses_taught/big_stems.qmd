@@ -1,0 +1,27 @@
+---
+title: Advanced Systems Engineering I & II
+---
+
+[Link to the current Engineering catalog descriptions](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/)
+
+Advanced Systems Engineering is a two-semester sequence
+
+## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+}
+</style>
+
+| Course | Sem | Year | Style | Website | Info | Final Exam or Project |
+| ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E101 | Fall | 1998 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E102 | Spring | 1999 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E101 | Fall | 1997 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E102 | Spring | 1998 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E101 | Fall | 1996 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E102 | Spring | 1997 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+

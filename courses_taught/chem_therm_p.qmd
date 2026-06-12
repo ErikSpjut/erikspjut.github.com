@@ -1,0 +1,36 @@
+---
+title: Chemical and Thermal Processes
+---
+
+[Link to the current Engineering catalog descriptions](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/)
+
+Chemical and Thermal Processes was known as Chemical Engineering Principles
+prior to the curriculum revision in 2000
+
+## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+}
+</style>
+
+| Course | Sem | Year | Style | Website | Info | Final Exam or Project |
+| ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E82 | Fall | 2022 | Student-led Seminar/Flipped | [Link](https://pages.hmc.edu/spjut/E82/index.md.html) | N/A | N/A |
+| E82 | Fall | 2021 | Student-led Seminar/Flipped | [Link](https://pages.hmc.edu/spjut/E82/index.md.html) | N/A | N/A |
+| E82 | Fall | 2020 | Remote On-line | [Link](https://pages.hmc.edu/spjut/E82/index.md.html) | N/A | N/A |
+| E82 | Spring | 2016 | Flipped Classroom, Team Taught | <N/A> | N/A | N/A |
+| E82 | Spring | 2003 | Student-led Seminar | [Link](/E82_Website/index.html) | N/A | N/A |
+| E82 | Fall | 2002 | Student-led Seminar | [Link](/E82_Website/index.html) | N/A | N/A |
+| E94 | Spring | 1996 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Fall | 1995 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1994 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1993 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1992 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1991 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1990 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+| E94 | Spring | 1989 | Traditional Lecture, Team Taught | <N/A> | N/A | N/A |
+

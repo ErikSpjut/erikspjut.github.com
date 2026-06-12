@@ -1,0 +1,28 @@
+---
+title: High Power Rocketry
+---
+
+
+[Link to the current Engineering catalog descriptions](https://www.hmc.edu/engineering/curriculum/courses/engineering-course-descriptions/)
+
+High Power Rocketry is a technical elective where students model, design, build, and fly high power rockets. They then compare the flight data with the modeled data.
+
+## When Taught
+<style>
+th, td {
+    padding:  0px 10px;
+}
+tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+}
+</style>
+
+| Course | Sem | Year | Style | Website | Info | Final Exam or Project |
+| ------ | --- | ---- | ----- | ------- | ---- | --------------------- |
+| E178 | Spring | 2024 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E178 | Spring | 2023 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E178 | Spring | 2022 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E178 | Spring | 2021 | Remote Lecture, Remote Lab, Solo Launches | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E178 | Spring | 2020 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E190AJ | Spring | 2019 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
+| E190AJ | Spring | 2018 | Lecture, Lab, Field Experiences | [Link](https://pages.hmc.edu/spjut/AdvRoc/index.md.html) | N/A | N/A |
