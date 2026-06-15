@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Engineering Clinic – Erik Spjut</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a4db4e0749ab3f8bc29027c0141be3a4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Erik Spjut</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./clinic.html" aria-current="page"> 
+<span class="menu-text">Clinic</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./consulting.html"> 
+<span class="menu-text">Consulting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sp_proj.html"> 
+<span class="menu-text">Special Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dofpro.html"> 
+<span class="menu-text">DOFPro</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#engineering-clinic-director" id="toc-engineering-clinic-director" class="nav-link active" data-scroll-target="#engineering-clinic-director">Engineering Clinic Director</a></li>
+  <li><a href="#clinics-ive-advised" id="toc-clinics-ive-advised" class="nav-link" data-scroll-target="#clinics-ive-advised">Clinics I’ve Advised</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Engineering Clinic</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The Engineering Clinic Program started in 1963. It is a sponsored Third-/Fourth-Year capstone project course. A good deal of information can be found <a href="https://www.hmc.edu/clinic/">here</a>. A brief history can be found <a href="https://www.hmc.edu/clinic/history-of-the-clinic-program/">here</a>. Clinic has grown from its start in Engineering to include Computer Science, Physics, Math, and a Global Program. The concept of Clinic has been copied widely but was radically different from the prevailing engineering pedagogy in 1963. <a href="https://www.hmc.edu/clinic/sponsors-projects/past-projects/">Here is a link to the searchable database of HMC Clinic projects</a>.</p>
+<p>Each student-led project has a Faculty Advisor who is a coach or a mentor to the team, and not a typical Principal Investigator. However, the Faculty Advisor typically learns as much as the students do about the sponsor and the project. I’ve put both information about my time as Engineering Clinic Director and about the projects for which I’ve been the Faculty Advisor.</p>
+<section id="engineering-clinic-director" class="level2">
+<h2 class="anchored" data-anchor-id="engineering-clinic-director">Engineering Clinic Director</h2>
+<p>From July 2010 to July 2015 I was the Engineering Clinic Director. The Engineering Clinic Director’s primary responsibility is recruiting of Clinic Projects for the students. The total number of projects required varies from year to year depending on the number of Engineering Majors. During my time the count in Engineering varied between 20 and 26. The total annual budget for the Engineering Clinic Program is in excess of $1,000,000. I am happy to discuss the details of the budgeting on an individual basis.</p>
+<p>The Assistant Vice President for Sponsored Research and Projects initiates contact with most of the sponsors. Once she has a potential sponsor willing to either meet or or have a teleconference, the Engineering Clinic Director gets involved for the site visit or teleconference. A good fraction of my time was spent on site visits and teleconferences. The Clinic Director helps the sponsors edit the project statements and get the business agreement in place. The Clinic Director then assigns the students and the Faculty Advisors to the teams, and deals with the logistics.</p>
+<p>I had the great benefit of having <a href="http://pages.hmc.edu/harris/">David Harris</a> as the Associate Director for the first two years, <a href="https://www.hmc.edu/engineering/qimin-yang/">Qimin Yang</a> as the Associate Director for the next two years, and [Lori Bassman] as the Associate Director for the final year. My job would have been impossible without the support of Lorena Gonzalez, the Engineering Clinic Program Coordinator, and the rest of the Engineering support staff.</p>
+<p>My time as Engineering Clinic Director gave me both practice at and great insight into what it takes to manage a million-dollar program.</p>
+</section>
+<section id="clinics-ive-advised" class="level2">
+<h2 class="anchored" data-anchor-id="clinics-ive-advised">Clinics I’ve Advised</h2>
+<p>Again, the Faculty Advisor is a coach or a mentor to the team, and not a Principal Investigator. Nevertheless, I’ve learned a great deal from the projects I’ve advised and I’ve learned a lot more engineering than I otherwise would have.</p>
+<style>
+th, td {
+    padding:  0px 10px;
+}
+tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+</style>
+<table>
+<tbody><tr>
+<th>
+Year
+</th>
+<th>
+Sponsor
+</th>
+<th>
+Title
+</th>
+</tr>
+<tr>
+<td>
+2022/2023
+</td>
+<td>
+Project Pyramid
+</td>
+<td>
+Evaluation of Replacement of a Temperature-Calibration Water Bath with a Temperature-Calibration Fluidized Bed
+</td>
+</tr>
+<tr>
+<td>
+2021/2022
+</td>
+<td>
+Motiv Power Systems
+</td>
+<td>
+Stationary Energy Storage using Battery Packs from Electric Vehicles
+</td>
+</tr>
+<tr>
+<td>
+2020/2021
+</td>
+<td>
+NASA JPL
+</td>
+<td>
+Creating a Safety Case for Assessing Risk Decisions on a Sample-Return Mission
+</td>
+</tr>
+<tr>
+<td>
+2019/2020
+</td>
+<td>
+NASA JPL
+</td>
+<td>
+Comparison of Sterilization Alternatives for a Sample Return Mission
+</td>
+</tr>
+<tr>
+<td>
+2019/2020
+</td>
+<td>
+Physical Optics Corporation
+</td>
+<td>
+Project VEIL: Various Encryptions Implemented in Logic
+</td>
+</tr>
+<tr>
+<td>
+2018/2019
+</td>
+<td>
+Arvind Mills
+</td>
+<td>
+Reducing Energy Consumption in Wet Dry Cycles
+</td>
+</tr>
+<tr>
+<td>
+2017/2018
+</td>
+<td>
+Ceremod Inc.
+</td>
+<td>
+Deep Brain Cooling
+</td>
+</tr>
+<tr>
+<td>
+2015/2016
+</td>
+<td>
+BiMBy
+</td>
+<td>
+Big Mass Battery: Engineering Challenges and Feasibility
+</td>
+</tr>
+<tr>
+<td>
+2015/2016
+</td>
+<td>
+AT&amp;T (DIRECTV)
+</td>
+<td>
+Smartphone-Powered DIRECTV Antenna Installation
+</td>
+</tr>
+<tr>
+<td>
+2014/2015
+</td>
+<td>
+Rocketry Organization of California
+</td>
+<td>
+Multi-Channel Wireless Launch Controller
+</td>
+</tr>
+<tr>
+<td>
+2013/2014
+</td>
+<td>
+Project A Cappella
+</td>
+<td>
+Characterization of Acoustic Noise Generated by Capacitors on Printed Circuit Boards
+</td>
+</tr>
+<tr>
+<td>
+2012/2013
+</td>
+<td>
+Los Alamos National Laboratory
+</td>
+<td>
+Monitoring and Management Strategy for Liquid Cooling of LANL’s Data Center
+</td>
+</tr>
+<tr>
+<td>
+2011/2012
+</td>
+<td>
+Paramount Pictures
+</td>
+<td>
+Implementing Regenerative Braking on Launched Roller Coasters
+</td>
+</tr>
+<tr>
+<td>
+2010/2011
+</td>
+<td>
+Los Alamos National Laboratory
+</td>
+<td>
+Construction of X-ray Diagnostic Subsystems
+</td>
+</tr>
+<tr>
+<td>
+2010/2011
+</td>
+<td>
+M2 Renewables, Inc.
+</td>
+<td>
+Mechanical De-watering Device
+</td>
+</tr>
+<tr>
+<td>
+2008/2009
+</td>
+<td>
+Cobham; Sargent Fletcher Inc.
+</td>
+<td>
+Design of Test Firing Apparatus for Pneumatic Ejection Racks
+</td>
+</tr>
+<tr>
+<td>
+2007/2008
+</td>
+<td>
+Lawrence Livermore National Laboratory
+</td>
+<td>
+Optimizing a Water-Based Muon Detecto
+</td>
+</tr>
+<tr>
+<td>
+2006/2007
+</td>
+<td>
+Edwards Air Force Base
+</td>
+<td>
+Design and Construction of a Dynamic Long Range Laser Telemetry System
+</td>
+</tr>
+<tr>
+<td>
+2006/2007
+</td>
+<td>
+Honeywell International, Inc.
+</td>
+<td>
+Pressure Drop Characterization of Congealed Oil Flow in Compact Heat Exchangers
+</td>
+</tr>
+<tr>
+<td>
+2005/2006
+</td>
+<td>
+Edwards Air Force Base
+</td>
+<td>
+Design and Construction of an Optical Telemetry System
+</td>
+</tr>
+<tr>
+<td>
+2005/2006
+</td>
+<td>
+Southwest Research Institute (SwRI)
+</td>
+<td>
+Designing a Low Power and Lightweight Digital Camera Array
+</td>
+</tr>
+<tr>
+<td>
+2004/2005
+</td>
+<td>
+Lockheed Martin Advanced Technology Center
+</td>
+<td>
+Creating a Computer-Controlled Active Tracking Heliostat
+</td>
+</tr>
+<tr>
+<td>
+2004/2005
+</td>
+<td>
+Northrop Grumman Navigation Systems
+</td>
+<td>
+External Fiber Optic Modulator
+</td>
+</tr>
+<tr>
+<td>
+2003/2004
+</td>
+<td>
+Bourns, Inc.
+</td>
+<td>
+Development of Lead and Cadmium Free Thick-Film Resistors
+</td>
+</tr>
+<tr>
+<td>
+2003/2004
+</td>
+<td>
+Grobecker Associates &amp; The Center for Environmental Studies
+</td>
+<td>
+Design of an Organic Waste Bioreactor
+</td>
+</tr>
+<tr>
+<td>
+2002/2003
+</td>
+<td>
+The Boeing Company/Phantom Works
+</td>
+<td>
+Quest for a World Record in Laser-Based Wireless Power Transmission
+</td>
+</tr>
+<tr>
+<td>
+2000/2001
+</td>
+<td>
+Loma Linda University Medical Center
+</td>
+<td>
+Sequential Alignment and Positioning Verification System for Functional Proton Radiosurgery
+</td>
+</tr>
+<tr>
+<td>
+1999/2000
+</td>
+<td>
+Jet Propulsion Laboratory (JPL)
+</td>
+<td>
+Infrared Interferometer
+</td>
+</tr>
+<tr>
+<td>
+1999/2000
+</td>
+<td>
+The Boeing Company/ES&amp;MD, Marine Systems
+</td>
+<td>
+A Thermal Control Method for the IFOG Navigation System
+</td>
+</tr>
+<tr>
+<td>
+1998/1999
+</td>
+<td>
+Center for Integration of Medicine and Innovative Technology (CIMIT)
+</td>
+<td>
+Minimally Invasive System for Detecting Hepatic Shock
+</td>
+</tr>
+<tr>
+<td>
+1998/1999
+</td>
+<td>
+Eastman Kodak Company
+</td>
+<td>
+High Speed Digital Video Disk Array Recorder
+</td>
+</tr>
+<tr>
+<td>
+1997/1998
+</td>
+<td>
+Orbital Sciences
+</td>
+<td>
+NIR Spectrometer
+</td>
+</tr>
+<tr>
+<td>
+1996/1997
+</td>
+<td>
+Accel Technologies, Inc
+</td>
+<td>
+Transforming Electronic Components into a Usable Form
+</td>
+</tr>
+<tr>
+<td>
+1995/1996
+</td>
+<td>
+Aerojet Electrosystems
+</td>
+<td>
+Design of Low Cost 3-Axis Stabilized Platform
+</td>
+</tr>
+<tr>
+<td>
+1995/1996
+</td>
+<td>
+Science Applications International Corporation
+</td>
+<td>
+Design of a Reaction Block for an Automated Combinatorial-Chemistry System
+</td>
+</tr>
+<tr>
+<td>
+1993/1994
+</td>
+<td>
+Northrop Grumman Corporation
+</td>
+<td>
+Novel Tooling Technologies Applied to Battle Damage Repair of Composite Structures
+</td>
+</tr>
+<tr>
+<td>
+1993/1994
+</td>
+<td>
+Southern California Edison
+</td>
+<td>
+High Albedo Paint Additives for Air Conditioning Energy Conservation
+</td>
+</tr>
+<tr>
+<td>
+1991/1992
+</td>
+<td>
+Aerojet Electrosystems
+</td>
+<td>
+Metal Hydride Compressor Characterization
+</td>
+</tr>
+<tr>
+<td>
+1991/1992
+</td>
+<td>
+Walter Reed Army Institute of Research (WRAIR)
+</td>
+<td>
+Development of the Experimental Space-Based Centrifuge
+</td>
+</tr>
+<tr>
+<td>
+1990/1991
+</td>
+<td>
+Aerojet Electrosystems
+</td>
+<td>
+Vanadium Hydride Compressor Characterization
+</td>
+</tr>
+<tr>
+<td>
+1990/1991
+</td>
+<td>
+Walter Reed Army Institute of Research (WRAIR)
+</td>
+<td>
+Space Based Fluorimeter
+</td>
+</tr>
+<tr>
+<td>
+1989/1990
+</td>
+<td>
+General Dynamics/ San Diego
+</td>
+<td>
+Fast Optical Switch
+</td>
+</tr>
+<tr>
+<td>
+1988/1989
+</td>
+<td>
+Southern California Edison
+</td>
+<td>
+Ultraviolet Curing
+</td>
+</tr>
+</tbody></table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
