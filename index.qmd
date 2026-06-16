@@ -1,7 +1,13 @@
 ---
 title: Erik Spjut
 ---
+:::: {.columns}
 
+::: {.column width="32%"}
+![](WebsitePortrait.png){fig-align="left" width=220px}
+:::
+
+::: {.column width="68%"}
 Professor Emeritus
 in the [Department of Engineering][EHMC] at [Harvey Mudd College][HMC]  
 
@@ -22,6 +28,13 @@ My list of publications is available in [pdf](files/publications_11_JUN_2026.pdf
 [My linkedin](https://www.linkedin.com/in/erikspjut).
 
 [About my name](/about_spjut.html)
+:::
+
+::::
+
+
+
+
 
 ## Teaching
 
